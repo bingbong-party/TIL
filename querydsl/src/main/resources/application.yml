@@ -1,9 +1,15 @@
 spring:
+  # ec2 연결
+#  datasource:
+#    url: jdbc:mysql://walkon-prd-rds-mysql-read01.c4xlnu8ouvmq.ap-northeast-2.rds.amazonaws.com/walkon?serverTimezone=Asia/Seoul
+#    username: walkon
+#    password: superwallaby
+#    driver-class-name: com.mysql.cj.jdbc.Driver
   datasource:
-    url: jdbc:mysql://walkon-prd-rds-mysql-read01.c4xlnu8ouvmq.ap-northeast-2.rds.amazonaws.com/walkon?serverTimezone=Asia/Seoul
-    username: walkon
-    password: superwallaby
     driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ej?serverTimezone=Asia/Seoul
+    username: ej
+    password: ej
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
