@@ -12,7 +12,7 @@ public class Scratch {
         System.out.println("직렬화 : " + byteString);
 
         byte[] serializedMember = Base64.getDecoder().decode(byteString);
-        deserialize(serializedMember);
+        System.out.println("역직렬화 : " + deserialize(serializedMember));
     }
 
     // 직렬화
@@ -34,15 +34,16 @@ public class Scratch {
     }
 
     // 역직렬화
-    private static void deserialize(byte[] serializedMember) {
+    private static Member deserialize(byte[] serializedMember) {
         try (ByteArrayInputStream bis = new ByteArrayInputStream(serializedMember)) {
             try (ObjectInputStream ois = new ObjectInputStream(bis)) {
                 Object o = ois.readObject();
                 Member o1 = (Member) o;
-                System.out.println("역직렬화 : " + o1);
+                return o1;
             }
         } catch (Exception e) {
             e.printStackTrace();
+            return null;
         }
     }
 }
