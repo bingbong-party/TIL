@@ -1,4 +1,4 @@
-package com.practice.chapter6_class_and_object2;
+package com.practice.DoitJava.chapter6_class_and_object2;
 
 /**
  * < static 변수 >

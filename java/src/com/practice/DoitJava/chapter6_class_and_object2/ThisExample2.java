@@ -1,4 +1,4 @@
-package com.practice.chapter6_class_and_object2;
+package com.practice.DoitJava.chapter6_class_and_object2;
 
 
 // < 생성자에서 또 다른 생성자를 호출하는 경우에서 쓰이는 this >

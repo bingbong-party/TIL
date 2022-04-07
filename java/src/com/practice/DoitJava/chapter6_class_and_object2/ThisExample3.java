@@ -1,4 +1,4 @@
-package com.practice.chapter6_class_and_object2;
+package com.practice.DoitJava.chapter6_class_and_object2;
 
 // 자신의 주소를 반환하는 this
 class AdressPerson {

@@ -1,4 +1,4 @@
-package com.practice.chapter8_inheritance_and_polymorphism.Inheritance;
+package com.practice.DoitJava.chapter8_inheritance_and_polymorphism.Inheritance;
 
 public class Customer {
     protected int customerID;

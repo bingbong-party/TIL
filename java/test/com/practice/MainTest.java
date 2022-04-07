@@ -1,12 +1,10 @@
 package com.practice;
 
-import com.practice.chapter6_class_and_object2.SingletonPattern;
-import com.practice.chapter6_class_and_object2.Static;
-import com.practice.chapter8_inheritance_and_polymorphism.Inheritance.Customer;
-import com.practice.chapter8_inheritance_and_polymorphism.Inheritance.VIPCustomer;
+import com.practice.DoitJava.chapter6_class_and_object2.SingletonPattern;
+import com.practice.DoitJava.chapter6_class_and_object2.Static;
+import com.practice.DoitJava.chapter8_inheritance_and_polymorphism.Inheritance.Customer;
+import com.practice.DoitJava.chapter8_inheritance_and_polymorphism.Inheritance.VIPCustomer;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class MainTest {
 //    @Test

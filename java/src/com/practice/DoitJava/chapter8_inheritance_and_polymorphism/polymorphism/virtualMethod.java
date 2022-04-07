@@ -1,7 +1,7 @@
-package com.practice.chapter8_inheritance_and_polymorphism.polymorphism;
+package com.practice.DoitJava.chapter8_inheritance_and_polymorphism.polymorphism;
 
-import com.practice.chapter8_inheritance_and_polymorphism.Inheritance.Customer;
-import com.practice.chapter8_inheritance_and_polymorphism.Inheritance.VIPCustomer;
+import com.practice.DoitJava.chapter8_inheritance_and_polymorphism.Inheritance.Customer;
+import com.practice.DoitJava.chapter8_inheritance_and_polymorphism.Inheritance.VIPCustomer;
 
 /**
  * 변수 vc는 자식 인스턴스로 생성되었으나, 부모 클래스로 형변환 된다.

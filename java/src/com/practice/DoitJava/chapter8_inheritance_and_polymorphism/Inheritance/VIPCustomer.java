@@ -1,4 +1,4 @@
-package com.practice.chapter8_inheritance_and_polymorphism.Inheritance;
+package com.practice.DoitJava.chapter8_inheritance_and_polymorphism.Inheritance;
 
 /**
  * 상속을 받은 하위 클래스가 호출될 때, 상위 클래스의 생성자가 먼저 호출된다.

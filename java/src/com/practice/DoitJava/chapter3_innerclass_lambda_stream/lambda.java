@@ -1,4 +1,4 @@
-package com.practice.chapter3_innerclass_lambda_stream;
+package com.practice.DoitJava.chapter3_innerclass_lambda_stream;
 
 public class lambda {
     public static void main(String[] args) {

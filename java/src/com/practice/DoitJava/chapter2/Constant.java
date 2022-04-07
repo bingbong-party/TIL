@@ -1,4 +1,4 @@
-package com.practice.chapter2;
+package com.practice.DoitJava.chapter2;
 
 public class Constant {
     /**

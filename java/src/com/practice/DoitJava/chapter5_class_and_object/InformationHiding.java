@@ -1,4 +1,4 @@
-package com.practice.chapter5_class_and_object;
+package com.practice.DoitJava.chapter5_class_and_object;
 
 public class InformationHiding {
     /**

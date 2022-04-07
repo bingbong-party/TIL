@@ -1,4 +1,4 @@
-package com.practice.chapter6_class_and_object2;
+package com.practice.DoitJava.chapter6_class_and_object2;
 
 /**
  * 일반 멤버 변수를 위한 메서드가 존재하듯 static 변수를 위한 메서드가 존재한다

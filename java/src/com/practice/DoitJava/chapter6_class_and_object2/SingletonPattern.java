@@ -1,4 +1,4 @@
-package com.practice.chapter6_class_and_object2;
+package com.practice.DoitJava.chapter6_class_and_object2;
 
 public class SingletonPattern {
     // 인스턴스를 private 으로 선언하여 외부로부터의 접근을 막는다.
