@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.study.webflux;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuerydslApplicationTests {
+class WebfluxApplicationTests {
 
 	@Test
 	void contextLoads() {
